@@ -1,13 +1,13 @@
-const noteSchema = require('../models/noteSchema')
+const NoteSchema = require('../models/noteSchema')
 
 const getAll = async (req, res) => {
     try {
-        const notes = await noteSchema.find()
+        const notes = await NoteSchema.find()
         res.status(200).json(notes)
 
     } catch (error) {
         res.status(500).json({
-            mensagem: error.message,
+            message: error.message,
         })
     }
 }
