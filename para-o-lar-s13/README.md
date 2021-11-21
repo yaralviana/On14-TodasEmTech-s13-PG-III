@@ -45,12 +45,17 @@ Projeto criado para aprendizado na aula da Profª Edlaine Pontes da {reprograma}
                 |       
                 |       estabelecimentosController.js
                 |                      
+                📂---database
+                |       
+                |       
+                |       petshopSchema.js
+                |       
+                |
                 📂---models
                 |       
                 |       
-                |       estabelecimentos.json
-                |       
-                |
+                |       mongoConfig.js
+                |__      
                 📂---routes
                 |      
                 |       estabelecimentoRoutes.js
